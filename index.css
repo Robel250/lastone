@@ -1,0 +1,218 @@
+
+
+
+.bg{ position: fixed;
+     width: 100vw;
+     height: 100vh;
+     filter: brightness(0.5);
+     
+}
+.body h1{font-size: 100px;
+     width: 100px;
+     margin-right: 250px;
+         
+ }
+
+.home{ background-color: rgba(0, 0, 0, 0.751);
+height: 100vh;
+width: 250px;
+margin-left: end;
+}
+.img3{ border-top-right-radius: 100px;
+      border-bottom-left-radius: 100px;
+}
+#hani{ width: 100px;
+height: 100px;
+border-radius: 100%;
+border: 5px solid rgba(11, 11, 11, 0.592);
+
+outline: 5px  solid  rgba(255, 255, 255, 0.425);
+outline-offset: px;
+
+}
+
+ .img{ background-color: black;
+     padding: 5px;
+      border-radius: 100%;
+      width: 30px;
+      opacity: 0.8;
+     }   
+     
+ul{list-style-type: none;
+     padding-left: 0px;
+}
+
+a{text-indent: 10px;}          
+.second-icon {width: 25px;
+     opacity: 0.4;
+     
+} 
+a:hover{ background-color: rgba(48, 31, 31, 0.649);
+       border-radius: 30px;
+     padding: 5px;
+}
+
+@media( max-width:px){ span h1 {position: absolute; margin-left: 300px; }
+                            span p{ position:absolute; margin-left: 300px; margin-top: 30px;}   
+                            .home{width: 300px;
+                                  margin-right: 30px; 
+                          }   
+                            .iconhome ul{display: flex;
+                                          justify-content: center;
+                                          padding: 10px;
+                          }
+                          .iconhome ul:hover{ padding: ;}
+                          .img3{border: 3px solid red;
+                              height: 10px;}
+                             
+                              }
+
+ 
+.homepage h1{width:75% ;border: 3px ;}
+     
+    
+.Birthday{ display: flex;
+           flex-wrap: wrap;
+}
+    .line1{ border-bottom: 4px solid rgb(48, 31, 31);;
+width: 10%;}
+
+
+
+
+
+
+
+.mainhome{width:80% ;
+        margin-top: 5%;
+        border-radius: 10px;
+
+}
+
+.second-para { display: flex;
+     flex-wrap: wrap;}
+.img3{ width: 360px;
+     height: 450px;
+}
+
+  .line3{width: 10%;
+border-bottom: 3px solid rgb(48, 31, 31);}  
+    
+    .albu { width: 10%;
+            height: 300px;
+            border-radius: 50px;
+            margin-left: 10px;
+}
+.albu:hover{ width: 200px; 
+            transition: 0.2s;
+}
+
+
+.video{ display: flex;
+     justify-content: space-around;
+        flex-wrap: wrap;
+       
+}
+.my-porject{ display: flex;
+             flex-wrap: wrap;
+             justify-content: space-around;
+}
+.card{ 
+padding: 10px;
+width: 300px;
+margin-bottom: 10px;
+}
+.card h3{ text-indent: 10px;}
+
+.button{background-color: rgba(48, 31, 31, 0.738);
+     border-radius: 30px;
+   color: white;
+transition: 0.2s; }
+.button:hover{ border-color:rgba(48, 31, 31, 0.649); ;}
+
+img{ width: 25px;}
+#mySidenav4 a {
+     position:fixed;
+    
+     left: -78px;
+     transition: 0.3s;
+     padding: 15px;
+     width: 140px;
+     text-decoration: none;
+     font-size: 20px;
+     color: white;
+     border-radius: 0 5px 5px 0;
+     margin-top:0px ;
+ 
+    }
+   
+
+     #mySidenav4 a:hover {
+          left: 0;}
+.allform {
+     background-color:rgba(211, 211, 211, 0.336);
+     width: 350px;
+     height: 470px;
+     border-radius: 10px;
+     backdrop-filter: bulr(-10px);
+     margin-top: 150px;
+     
+   
+     
+       }
+       #form{ display: flex ;
+              justify-content: center;
+              flex-direction: column;
+              align-items: center;
+              outline: none;
+              border: none;
+       }
+       #form div {
+             margin-top: 20px;
+       }
+       input[ type=password]{ outline: none;}
+       input[type=text]{ outline: none;}
+       .checkbox{
+             display: flex;
+             justify-content: space-between;
+            margin-top: 20px;
+flex-direction:row;
+       }
+      
+           
+       
+.allform h1 {
+ display: flex;  
+ justify-content: center; 
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}     
+#name,#Password,#message { width: 300px;
+                 
+                 border-radius: 5px;
+                 background-color: rgba(255, 255, 255, 0.742);
+                 border: none;
+                 text-indent: 10px;
+                 color: rgb(165, 156, 156);
+                 backdrop-filter: bulr(-10px);
+
+               }
+#name,#Password{ height: 30px;}
+textarea{ overflow-y: auto;}
+  button { width: 300px;
+           height: 30px;
+           border: none;
+           color: white;
+           background-color: rgba(48, 31, 31, 0.836);;
+           font-size: medium;
+           position: relative;
+          margin-top: 10px;
+          backdrop-filter: bulr(-20px);
+       }             
+button:hover{ background-color: gray;
+             border-radius: 2px;
+  }  
+
+a{ text-decoration: none;
+     
+}                
